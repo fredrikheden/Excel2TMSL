@@ -17,7 +17,7 @@ if( HASONEFILTER(TimeRange[Choice]);
 "@
 
     $retValue = $template.Replace("#MEASURE#", $daxFormula)
-    if ( $UserCommaInsteadOfSemicolonInDax ) {
+    if ( $UseCommaInsteadOfSemicolonInDax ) {
         $retValue = $retValue.Replace(";", ",")
     }
     $retValue = $retValue.Replace("""", "\""")

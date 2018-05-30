@@ -8,7 +8,7 @@ cls
 
 $ASSERVERINSTANCE = "."
 $ASDATABASE = "FHDW"
-$UserCommaInsteadOfSemicolonInDax = $true
+$UseCommaInsteadOfSemicolonInDax = $true
 
 
 $tables = GetDataFromExcelDocuments -path:$PSScriptRoot
