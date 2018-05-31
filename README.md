@@ -1,6 +1,7 @@
 # Excel2TMSL
 Using Excel &amp; PowerShell to organize and deploy DAX measures
-<br>
+<br><br>
+
 Change the following attributes before running on your machine.
 <br>
 $ASSERVERINSTANCE = "." # You AS Server instance (or Azure Instance)
