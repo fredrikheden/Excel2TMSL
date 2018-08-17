@@ -9,4 +9,8 @@ $ASSERVERINSTANCE = "." # You AS Server instance (or Azure Instance)
 $ASDATABASE = "FHDW" # Name of your AS database
 <br>
 $UseCommaInsteadOfSemicolonInDax = $true # Set to $true is , should be used instead of ; in DAX expressions.
+<br><br>
+Don't forget to import the PowerShell module ImportExcel by running the following PowerShell command:
+<br>
+Install-Module -Name ImportExcel
 <br>
