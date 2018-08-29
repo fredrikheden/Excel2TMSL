@@ -79,6 +79,7 @@ function CreateTmslFromTable($tables) {
             if ( $rm.DAXTemplate.Length -gt 0 ) {
                 $DAXExpression = &"$DAXMethod" $DAXExpression
             }
+            $DAXExpression = $DAXExpression.Replace("""", "\""") # To support " in the Excel sheet.
             $tm = @"
 {
     "name": "$MeaureName",

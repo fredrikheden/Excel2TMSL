@@ -1,5 +1,7 @@
 # Created by Fredrik Hedenström 2018-05-30
 # Modules used: ImportExcel, SqlServer
+#     Install-Module -Name SqlServer
+#     Install-Module -Name ImportExcel
 
 cls
 
